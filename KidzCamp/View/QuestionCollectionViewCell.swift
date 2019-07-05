@@ -46,7 +46,7 @@ class QuestionCollectionViewCell: UICollectionViewCell {
         
         questionTextView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 150).isActive = true
         questionTextView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
-         questionTextView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
+        questionTextView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
         questionTextView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: 0).isActive = true
     }
 }

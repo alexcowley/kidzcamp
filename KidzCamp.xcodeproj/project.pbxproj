@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C087AAF2299EB500032FCBD /* OnboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C087AAE2299EB500032FCBD /* OnboardModel.swift */; };
-		1C087AB12299F9BA0032FCBD /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C087AB02299F9BA0032FCBD /* TestCollectionViewCell.swift */; };
 		1C087AB3229D84C60032FCBD /* CustomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C087AB2229D84C60032FCBD /* CustomeTabBarController.swift */; };
 		1C094B6A22A5663B00D6F4A7 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C094B6922A5663B00D6F4A7 /* Alerts.swift */; };
 		1C4209832296C8F80046355D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4209822296C8F80046355D /* AppDelegate.swift */; };
-		1C4209852296C8F80046355D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4209842296C8F80046355D /* ViewController.swift */; };
 		1C4209882296C8F80046355D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4209862296C8F80046355D /* Main.storyboard */; };
 		1C42098A2296C90C0046355D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4209892296C90C0046355D /* Assets.xcassets */; };
 		1C42098D2296C90C0046355D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C42098B2296C90C0046355D /* LaunchScreen.storyboard */; };
@@ -46,12 +44,10 @@
 
 /* Begin PBXFileReference section */
 		1C087AAE2299EB500032FCBD /* OnboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardModel.swift; sourceTree = "<group>"; };
-		1C087AB02299F9BA0032FCBD /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C087AB2229D84C60032FCBD /* CustomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabBarController.swift; sourceTree = "<group>"; };
 		1C094B6922A5663B00D6F4A7 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		1C42097F2296C8F80046355D /* KidzCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidzCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4209822296C8F80046355D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C4209842296C8F80046355D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C4209872296C8F80046355D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C4209892296C90C0046355D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C42098C2296C90C0046355D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -165,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				1C4209B92297B23E0046355D /* OnboardCollectionViewCell.swift */,
-				1C087AB02299F9BA0032FCBD /* TestCollectionViewCell.swift */,
 				1CBC648522BEC9FB007AF03B /* QuestionCollectionViewCell.swift */,
 				1CBC648722C4267A007AF03B /* SignUpView.swift */,
 			);
@@ -175,7 +170,6 @@
 		1C4209B22296CA510046355D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1C4209842296C8F80046355D /* ViewController.swift */,
 				1C4209B52296D23A0046355D /* CollectionViewController.swift */,
 				1C4209B72296FD610046355D /* NextCollectionViewController.swift */,
 			);
@@ -314,7 +308,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C4209B62296D23A0046355D /* CollectionViewController.swift in Sources */,
-				1C4209852296C8F80046355D /* ViewController.swift in Sources */,
 				1CBC648422BEC9AF007AF03B /* QuestionModel.swift in Sources */,
 				1C4209B82296FD610046355D /* NextCollectionViewController.swift in Sources */,
 				1CBC648622BEC9FB007AF03B /* QuestionCollectionViewCell.swift in Sources */,
@@ -323,7 +316,6 @@
 				1C4209BA2297B23E0046355D /* OnboardCollectionViewCell.swift in Sources */,
 				1CBC648822C4267A007AF03B /* SignUpView.swift in Sources */,
 				1C094B6A22A5663B00D6F4A7 /* Alerts.swift in Sources */,
-				1C087AB12299F9BA0032FCBD /* TestCollectionViewCell.swift in Sources */,
 				1C087AB3229D84C60032FCBD /* CustomeTabBarController.swift in Sources */,
 				1C4209832296C8F80046355D /* AppDelegate.swift in Sources */,
 			);
