@@ -10,22 +10,36 @@ import UIKit
 
 class OnboardCollectionViewCell: UICollectionViewCell {
     
-    var onboard: OnboardModel? {
+    var onboardModel: OnboardModel? {
         didSet {
-            guard let unwrappedPage = onboard else {return}
+            guard let unwrappedPage = onboardModel else {return}
             onboardImageView.image = UIImage(named: unwrappedPage.imageName)
+            
+            let attributedText = NSMutableAttributedString(string: unwrappedPage.headerText, attributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 18)])
+            
+            onboardTextView.attributedText = attributedText
+            onboardTextView.textAlignment = .center 
         }
         
     }
     
     private let onboardImageView: UIImageView = {
-        var image: UIImage = UIImage(named: "camp")!
-        let imageView = UIImageView(image: image)
+//        var image: UIImage = UIImage(named: "camp")!
+//        let imageView = UIImageView(image: image)
+        let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
     
+    private let onboardTextView: UITextView = {
+        var textView = UITextView()
+        textView.translatesAutoresizingMaskIntoConstraints = false
+        textView.isEditable = false
+        textView.textAlignment = .center
+        textView.isScrollEnabled = false
+        return textView
+    }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -42,13 +56,21 @@ class OnboardCollectionViewCell: UICollectionViewCell {
         let topImageContainerView = UIView()
         
         addSubview(topImageContainerView)
+        addSubview(onboardTextView)
         
         topImageContainerView.translatesAutoresizingMaskIntoConstraints = false
         topImageContainerView.topAnchor.constraint(equalTo: topAnchor).isActive = true
         topImageContainerView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         topImageContainerView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
         
+        onboardTextView.topAnchor.constraint(equalTo: topAnchor, constant: 100).isActive = true
+        onboardTextView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
+        onboardTextView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        
+        
         topImageContainerView.addSubview(onboardImageView)
+        
+        
         onboardImageView.centerXAnchor.constraint(equalTo: topImageContainerView.centerXAnchor).isActive = true
         onboardImageView.centerYAnchor.constraint(equalTo: topImageContainerView.centerYAnchor).isActive = true
         onboardImageView.heightAnchor.constraint(equalTo: topImageContainerView.heightAnchor, multiplier: 0.5).isActive = true

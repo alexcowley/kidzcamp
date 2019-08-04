@@ -17,7 +17,6 @@ class NextCollectionViewController: UICollectionViewController, UICollectionView
         QuestionModel(questionText: "sgnirngn", headerText: "gfsfgrg"),
         QuestionModel(questionText: "nefgrys", headerText: "gfsfgrg")
     
-    
     ]
     
     private var nextIndex = 0
@@ -98,15 +97,16 @@ class NextCollectionViewController: UICollectionViewController, UICollectionView
         let indexPath = IndexPath(item: nextIndex, section: 0)
         pageControl.currentPage = nextIndex
         collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+        if nextIndex == 2 {
+            let layout = UICollectionViewFlowLayout()
+//            layout.scrollDirection = .horizontal
+            let nextView = CampsCollectionViewController(collectionViewLayout: layout)
+            self.navigationController?.pushViewController(nextView, animated: true)
+        }
 
     }
     
-    @objc func goToQuestionView(sender: UIButton) {
-        let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .horizontal
-        let nextView = NextCollectionViewController(collectionViewLayout: layout)
-        self.navigationController?.pushViewController(nextView, animated: true)
-    }
+   
     
     // MARK: UICollectionViewDataSource
 

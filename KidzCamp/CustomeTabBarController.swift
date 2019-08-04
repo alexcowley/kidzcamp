@@ -5,10 +5,10 @@
 //  Created by Alex Cowley  on 5/28/19.
 //  Copyright © 2019 Alex Cowley . All rights reserved.
 //
-/*
+
 import UIKit
 
-class CustomTabBarController: UITabBarController {}
+class CustomTabBarController: UITabBarController {
 
 
 override func viewDidLoad() {
@@ -17,11 +17,14 @@ override func viewDidLoad() {
     
     
 //    if isLoggedIn() {
-                    let firstController = ViewController()
+        let firstLayout = UICollectionViewFlowLayout.init()
+//        firstLayout.scrollDirection = .horizontal
+//        let firstController = CollectionViewController(collectionViewLayout: firstLayout)
+        let firstController = CampDetailCollectionViewController(collectionViewLayout: firstLayout)
 //        let firstLayout = UICollectionViewFlowLayout.init()
 //        let homeVC = ViewController(collectionViewLayout: firstLayout)
         let navigationController = UINavigationController(rootViewController: firstController)
-        navigationController.title = "Home"
+        navigationController.title = "Camps"
 //        navigationController.tabBarItem.image = UIImage(named: "School Icon")
     
 //        let secondController = NewsTableViewController()
@@ -31,13 +34,13 @@ override func viewDidLoad() {
 //        secondController.cached = cached
     
         //            let thirdController = homeVC()
-        let secondLayout = UICollectionViewFlowLayout.init()
-        let collectionVC = CollectionViewController(collectionViewLayout: secondLayout)
+        let thirdLayout = UICollectionViewFlowLayout.init()
+        let collectionVC = ProfileCollectionViewController(collectionViewLayout: thirdLayout)
         let thirdNavigationController = UINavigationController(rootViewController: collectionVC)
-        thirdNavigationController.title = "Onboard"
-        thirdNavigationController.tabBarItem.image = UIImage(named: "Student Icon")
+        thirdNavigationController.title = "Profile"
+//        thirdNavigationController.tabBarItem.image = UIImage(named: "Student Icon")
         //            profileCollectionVC.cached = cached
-        
+       /*
         let fourthLayout = UICollectionViewFlowLayout.init()
         let feedCollectionVC = CollegeActivityFeedCollectionVC(collectionViewLayout: fourthLayout)
         let fourthNavigationController = UINavigationController(rootViewController: feedCollectionVC)
@@ -56,10 +59,10 @@ override func viewDidLoad() {
             fifthNavigationController.title = "Roadmap"
             fifthNavigationController.tabBarItem.image = UIImage(named: "roadmap icon")
         }
+        */
         
         
-        
-        viewControllers = [navigationController, fourthNavigationController, secondNavigationController, thirdNavigationController, fifthNavigationController]
+        viewControllers = [navigationController, /*fourthNavigationController, secondNavigationController,*/ thirdNavigationController/*, fifthNavigationController*/]
         
         
         
@@ -96,4 +99,4 @@ override func viewDidLoad() {
 
 }
 
-*/
+

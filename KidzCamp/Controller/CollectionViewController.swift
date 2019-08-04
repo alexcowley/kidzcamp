@@ -171,7 +171,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! OnboardCollectionViewCell
 
             let onboardPage = onboardPages[indexPath.item]
-            cell.onboard = onboardPage
+            cell.onboardModel = onboardPage
  
 
         return cell

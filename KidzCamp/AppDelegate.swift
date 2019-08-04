@@ -17,14 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        window?.rootViewController = CustomTabBarController()
+        /*
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let navigation = UINavigationController()
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
-//        let initialViewController = CollectionViewController(collectionViewLayout: layout)
-        let initialViewController = SignUpView()
+//        let initialViewController = CampDetailCollectionViewController(collectionViewLayout: layout)
+        let initialViewController = TestCollectionViewController(collectionViewLayout: layout)
+//        let initialViewController = SignUpView()
         navigation.viewControllers = [initialViewController]
-        self.window?.rootViewController = navigation
+        self.window?.rootViewController = navigation*/
         self.window?.makeKeyAndVisible()
         
         

@@ -10,6 +10,15 @@
 		1C087AAF2299EB500032FCBD /* OnboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C087AAE2299EB500032FCBD /* OnboardModel.swift */; };
 		1C087AB3229D84C60032FCBD /* CustomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C087AB2229D84C60032FCBD /* CustomeTabBarController.swift */; };
 		1C094B6A22A5663B00D6F4A7 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C094B6922A5663B00D6F4A7 /* Alerts.swift */; };
+		1C15672922DF5DD9001430BE /* CampDetailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15672822DF5DD8001430BE /* CampDetailCollectionViewController.swift */; };
+		1C15672F22E4B861001430BE /* CampImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15672E22E4B861001430BE /* CampImageModel.swift */; };
+		1C15673122E6372F001430BE /* CampInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15673022E6372F001430BE /* CampInfoModel.swift */; };
+		1C15673322E78AB4001430BE /* CampReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15673222E78AB3001430BE /* CampReviewModel.swift */; };
+		1C15673522E81869001430BE /* ProfileCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15673422E81869001430BE /* ProfileCollectionViewController.swift */; };
+		1C15673722E82293001430BE /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15673622E82293001430BE /* ProfileCollectionViewCell.swift */; };
+		1C15673922E8C56E001430BE /* FavoritedCampsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15673822E8C56E001430BE /* FavoritedCampsCollectionViewCell.swift */; };
+		1C15673B22E8CE01001430BE /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15673A22E8CE01001430BE /* ProfileModel.swift */; };
+		1C15673D22EA4295001430BE /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15673C22EA4295001430BE /* HeaderCollectionReusableView.swift */; };
 		1C4209832296C8F80046355D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4209822296C8F80046355D /* AppDelegate.swift */; };
 		1C4209882296C8F80046355D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4209862296C8F80046355D /* Main.storyboard */; };
 		1C42098A2296C90C0046355D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4209892296C90C0046355D /* Assets.xcassets */; };
@@ -20,9 +29,22 @@
 		1C4209B62296D23A0046355D /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4209B52296D23A0046355D /* CollectionViewController.swift */; };
 		1C4209B82296FD610046355D /* NextCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4209B72296FD610046355D /* NextCollectionViewController.swift */; };
 		1C4209BA2297B23E0046355D /* OnboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4209B92297B23E0046355D /* OnboardCollectionViewCell.swift */; };
+		1C5B264322EF9221006AB1AC /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B264222EF9221006AB1AC /* ReviewCell.swift */; };
+		1C5B264522EF92DA006AB1AC /* AttendeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B264422EF92DA006AB1AC /* AttendeeCell.swift */; };
+		1C5B264722EF9B7E006AB1AC /* FactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B264622EF9B7E006AB1AC /* FactsCell.swift */; };
+		1C5B264B22F4C628006AB1AC /* FactsBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B264A22F4C627006AB1AC /* FactsBaseCell.swift */; };
+		1C5B264D22F4C7C2006AB1AC /* FactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B264C22F4C7C2006AB1AC /* FactsModel.swift */; };
+		1C5B264F22F570F4006AB1AC /* AttendeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B264E22F570F4006AB1AC /* AttendeeModel.swift */; };
+		1C5B265122F57150006AB1AC /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B265022F57150006AB1AC /* ReviewModel.swift */; };
+		1C5B265322F575DD006AB1AC /* AttendeeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B265222F575DD006AB1AC /* AttendeeBaseCell.swift */; };
+		1C5B265522F57725006AB1AC /* ReviewBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B265422F57725006AB1AC /* ReviewBaseCell.swift */; };
+		1C5B265722F6B064006AB1AC /* CampImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B265622F6B064006AB1AC /* CampImageCell.swift */; };
 		1CBC648422BEC9AF007AF03B /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC648322BEC9AF007AF03B /* QuestionModel.swift */; };
 		1CBC648622BEC9FB007AF03B /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC648522BEC9FB007AF03B /* QuestionCollectionViewCell.swift */; };
 		1CBC648822C4267A007AF03B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC648722C4267A007AF03B /* SignUpView.swift */; };
+		1CBC648A22CFEE07007AF03B /* CampsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC648922CFEE07007AF03B /* CampsCollectionViewController.swift */; };
+		1CBC648C22D006DA007AF03B /* CampsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC648B22D006DA007AF03B /* CampsCollectionViewCell.swift */; };
+		1CBC648E22D006F1007AF03B /* CampsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC648D22D006F1007AF03B /* CampsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +68,15 @@
 		1C087AAE2299EB500032FCBD /* OnboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardModel.swift; sourceTree = "<group>"; };
 		1C087AB2229D84C60032FCBD /* CustomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabBarController.swift; sourceTree = "<group>"; };
 		1C094B6922A5663B00D6F4A7 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		1C15672822DF5DD8001430BE /* CampDetailCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampDetailCollectionViewController.swift; sourceTree = "<group>"; };
+		1C15672E22E4B861001430BE /* CampImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampImageModel.swift; sourceTree = "<group>"; };
+		1C15673022E6372F001430BE /* CampInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampInfoModel.swift; sourceTree = "<group>"; };
+		1C15673222E78AB3001430BE /* CampReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampReviewModel.swift; sourceTree = "<group>"; };
+		1C15673422E81869001430BE /* ProfileCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewController.swift; sourceTree = "<group>"; };
+		1C15673622E82293001430BE /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		1C15673822E8C56E001430BE /* FavoritedCampsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedCampsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1C15673A22E8CE01001430BE /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		1C15673C22EA4295001430BE /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		1C42097F2296C8F80046355D /* KidzCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidzCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4209822296C8F80046355D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C4209872296C8F80046355D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,9 +93,22 @@
 		1C4209B52296D23A0046355D /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		1C4209B72296FD610046355D /* NextCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextCollectionViewController.swift; sourceTree = "<group>"; };
 		1C4209B92297B23E0046355D /* OnboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		1C5B264222EF9221006AB1AC /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		1C5B264422EF92DA006AB1AC /* AttendeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeCell.swift; sourceTree = "<group>"; };
+		1C5B264622EF9B7E006AB1AC /* FactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsCell.swift; sourceTree = "<group>"; };
+		1C5B264A22F4C627006AB1AC /* FactsBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsBaseCell.swift; sourceTree = "<group>"; };
+		1C5B264C22F4C7C2006AB1AC /* FactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsModel.swift; sourceTree = "<group>"; };
+		1C5B264E22F570F4006AB1AC /* AttendeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeModel.swift; sourceTree = "<group>"; };
+		1C5B265022F57150006AB1AC /* ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		1C5B265222F575DD006AB1AC /* AttendeeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeBaseCell.swift; sourceTree = "<group>"; };
+		1C5B265422F57725006AB1AC /* ReviewBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewBaseCell.swift; sourceTree = "<group>"; };
+		1C5B265622F6B064006AB1AC /* CampImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampImageCell.swift; sourceTree = "<group>"; };
 		1CBC648322BEC9AF007AF03B /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		1CBC648522BEC9FB007AF03B /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
 		1CBC648722C4267A007AF03B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		1CBC648922CFEE07007AF03B /* CampsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsCollectionViewController.swift; sourceTree = "<group>"; };
+		1CBC648B22D006DA007AF03B /* CampsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1CBC648D22D006F1007AF03B /* CampsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +195,16 @@
 			isa = PBXGroup;
 			children = (
 				1C4209B32296D0430046355D /* SignUpModel.swift */,
+				1CBC648D22D006F1007AF03B /* CampsModel.swift */,
 				1C087AAE2299EB500032FCBD /* OnboardModel.swift */,
 				1CBC648322BEC9AF007AF03B /* QuestionModel.swift */,
+				1C15672E22E4B861001430BE /* CampImageModel.swift */,
+				1C15673022E6372F001430BE /* CampInfoModel.swift */,
+				1C15673222E78AB3001430BE /* CampReviewModel.swift */,
+				1C15673A22E8CE01001430BE /* ProfileModel.swift */,
+				1C5B264C22F4C7C2006AB1AC /* FactsModel.swift */,
+				1C5B264E22F570F4006AB1AC /* AttendeeModel.swift */,
+				1C5B265022F57150006AB1AC /* ReviewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +215,17 @@
 				1C4209B92297B23E0046355D /* OnboardCollectionViewCell.swift */,
 				1CBC648522BEC9FB007AF03B /* QuestionCollectionViewCell.swift */,
 				1CBC648722C4267A007AF03B /* SignUpView.swift */,
+				1C15673622E82293001430BE /* ProfileCollectionViewCell.swift */,
+				1CBC648B22D006DA007AF03B /* CampsCollectionViewCell.swift */,
+				1C15673822E8C56E001430BE /* FavoritedCampsCollectionViewCell.swift */,
+				1C15673C22EA4295001430BE /* HeaderCollectionReusableView.swift */,
+				1C5B264222EF9221006AB1AC /* ReviewCell.swift */,
+				1C5B265422F57725006AB1AC /* ReviewBaseCell.swift */,
+				1C5B264422EF92DA006AB1AC /* AttendeeCell.swift */,
+				1C5B265222F575DD006AB1AC /* AttendeeBaseCell.swift */,
+				1C5B264622EF9B7E006AB1AC /* FactsCell.swift */,
+				1C5B264A22F4C627006AB1AC /* FactsBaseCell.swift */,
+				1C5B265622F6B064006AB1AC /* CampImageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +235,9 @@
 			children = (
 				1C4209B52296D23A0046355D /* CollectionViewController.swift */,
 				1C4209B72296FD610046355D /* NextCollectionViewController.swift */,
+				1CBC648922CFEE07007AF03B /* CampsCollectionViewController.swift */,
+				1C15672822DF5DD8001430BE /* CampDetailCollectionViewController.swift */,
+				1C15673422E81869001430BE /* ProfileCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -307,17 +373,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5B264B22F4C628006AB1AC /* FactsBaseCell.swift in Sources */,
+				1CBC648E22D006F1007AF03B /* CampsModel.swift in Sources */,
 				1C4209B62296D23A0046355D /* CollectionViewController.swift in Sources */,
+				1CBC648C22D006DA007AF03B /* CampsCollectionViewCell.swift in Sources */,
+				1C5B265722F6B064006AB1AC /* CampImageCell.swift in Sources */,
+				1C5B264D22F4C7C2006AB1AC /* FactsModel.swift in Sources */,
 				1CBC648422BEC9AF007AF03B /* QuestionModel.swift in Sources */,
+				1C15673322E78AB4001430BE /* CampReviewModel.swift in Sources */,
 				1C4209B82296FD610046355D /* NextCollectionViewController.swift in Sources */,
+				1C5B265122F57150006AB1AC /* ReviewModel.swift in Sources */,
+				1C5B265322F575DD006AB1AC /* AttendeeBaseCell.swift in Sources */,
+				1C5B264F22F570F4006AB1AC /* AttendeeModel.swift in Sources */,
 				1CBC648622BEC9FB007AF03B /* QuestionCollectionViewCell.swift in Sources */,
+				1C15673D22EA4295001430BE /* HeaderCollectionReusableView.swift in Sources */,
+				1C15673122E6372F001430BE /* CampInfoModel.swift in Sources */,
 				1C4209B42296D0430046355D /* SignUpModel.swift in Sources */,
+				1CBC648A22CFEE07007AF03B /* CampsCollectionViewController.swift in Sources */,
+				1C15672F22E4B861001430BE /* CampImageModel.swift in Sources */,
+				1C5B264522EF92DA006AB1AC /* AttendeeCell.swift in Sources */,
+				1C15672922DF5DD9001430BE /* CampDetailCollectionViewController.swift in Sources */,
+				1C15673722E82293001430BE /* ProfileCollectionViewCell.swift in Sources */,
+				1C15673B22E8CE01001430BE /* ProfileModel.swift in Sources */,
 				1C087AAF2299EB500032FCBD /* OnboardModel.swift in Sources */,
+				1C5B264322EF9221006AB1AC /* ReviewCell.swift in Sources */,
 				1C4209BA2297B23E0046355D /* OnboardCollectionViewCell.swift in Sources */,
 				1CBC648822C4267A007AF03B /* SignUpView.swift in Sources */,
 				1C094B6A22A5663B00D6F4A7 /* Alerts.swift in Sources */,
 				1C087AB3229D84C60032FCBD /* CustomeTabBarController.swift in Sources */,
+				1C15673922E8C56E001430BE /* FavoritedCampsCollectionViewCell.swift in Sources */,
+				1C15673522E81869001430BE /* ProfileCollectionViewController.swift in Sources */,
 				1C4209832296C8F80046355D /* AppDelegate.swift in Sources */,
+				1C5B265522F57725006AB1AC /* ReviewBaseCell.swift in Sources */,
+				1C5B264722EF9B7E006AB1AC /* FactsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
